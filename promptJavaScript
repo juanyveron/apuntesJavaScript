@@ -1,0 +1,40 @@
+
+Con la función prompt cargo valores por consola al usuario.
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JugandoConVariables</title>
+<link rel="stylesheet"href="css/micss.css">
+
+
+
+</head>
+
+<body>
+<div class="contenedores">
+	<div class"header">
+	<p class="logo">Curso JavaScript Pildoras Informáticas
+		
+	</p>
+	
+	</div>
+	<div class="principal">
+		<h1>Jugando con las variables	
+		</h1>
+		<script>
+		var nombre=prompt("introduce tu nombre.");
+			var apellido=prompt("Intruduce tu apellido.");
+			document.write("<p>");
+			document.write("Bienvenido "+nombre+apellido);
+			document.write("</p>");
+		
+		
+		
+		
+		</script>
+	</div>
+</div>
+</body>
+</html>
