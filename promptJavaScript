@@ -7,8 +7,13 @@ Con la función prompt cargo valores por consola al usuario.
 <meta charset="utf-8">
 <title>JugandoConVariables</title>
 <link rel="stylesheet"href="css/micss.css">
-
-
+<script>
+	var edad=prompt("¿Cuántos años tenés? ");
+	var restando=prompt("¿Cuántos años querés restarte?");
+	edad-=restando;     //OPERADOR DECREMENTAL		
+	
+	
+	</script>
 
 </head>
 
@@ -27,7 +32,7 @@ Con la función prompt cargo valores por consola al usuario.
 		var nombre=prompt("introduce tu nombre.");
 			var apellido=prompt("Intruduce tu apellido.");
 			document.write("<p>");
-			document.write("Bienvenido "+nombre+apellido);
+			document.write("Bienvenido "+nombre+apellido+"<br>"+" Te gustaria tener "+edad+" años.");
 			document.write("</p>");
 		
 		
