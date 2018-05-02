@@ -1,0 +1,23 @@
+
+Con la función Number me suma un tipo númerico con el valor de un String transformandolo siempre y cuando se pueda.
+
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DeclaracionVariable</title>
+<script>
+	var camisetas,pantalones,totalArticulos;
+	camisetas="5";
+	pantalones=5;
+	totalArticulos=Number(camisetas)+pantalones;
+	alert(totalArticulos);
+	
+	</script>
+</head>
+
+<body>
+</body>
+</html>
