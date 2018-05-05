@@ -44,18 +44,25 @@ l  Es mas  flexible, no necesito declarar ni inicializar.
 		  document.write(articulos[0]+"</strong></p>");
 		  alert(articulos.length);
 		
+		document.write("<p>El ultimo articulo es <strong>");
+		  document.write(articulos[articulos.length-1]+"</strong></p>");
+		  
+		  articulos.unshift("balón");
+		  document.write("<p>Casi nos olvidamos este elemento:   <strong>");		AGREGO AL PRINCIPIO  UNSHIFT
+		document.write(articulos[0]+"</strong></p>");
 		
+		
+		document.write("<p>Y finalmente el último es: <strong>");
+		articulos.push("Pija de burro");					AGREGO AL FINAL CON    PUSH
+		document.write(articulos[articulos.length-1]+"</strong></p>");
+		  
+		  
+		  
 		
 		
 	  </script>
     
-    <script>
-		document.write("<p>El segundo articulo es <strong>");
-		  document.write(articulos[1]+"</strong></p>");
-		
-		
-		
-		</script>
+   
      </div>
   </div>
   
