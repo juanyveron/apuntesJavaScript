@@ -1,0 +1,68 @@
+l  Es mas  flexible, no necesito declarar ni inicializar.
+ EJEMPLO .. var articulo("1","2","3","4");
+            var articulo = new Array("1","2","3","4");
+            ES LO MISMO;
+            
+            
+            .length         para saber el tamaño;
+            .push           para agregar elementos al final del array;
+            .pop            para eliminar elementos al final de un array;
+            .unshift        para agregar elementos al principio del array;
+            .shift          para eliminar elementos al principo de un array;
+            
+            
+            Creo un array con 4 posiciones  y le pido la posición 0 dentro de un párrafo y luego uso un alert con el .length
+            
+            
+            
+            
+           <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Usando Arrays</title>
+<link rel="stylesheet" href="css/micss.css">
+<script>
+	var articulos=["zapatilla","camiseta","pantalon","calcetines"];
+	//var articulos=new Array("zapatilla","camiseta","pantalon","calcetin");
+	
+</script>
+</head>
+
+<body>
+<div class="contenedor">
+  <div class="header">
+    <p class="logo">JavaScript Arrays <i class="mm">Píldoras Informáticas
+     </p>
+  </div>
+  <div class="contenido">
+    <div class="principal">
+      <h1>Manejando Arrays</h1>
+      <script>
+	  
+		  document.write("<p>El primer articulo es <strong>");
+		  document.write(articulos[0]+"</strong></p>");
+		  alert(articulos.length);
+		
+		
+		
+		
+	  </script>
+    
+    <script>
+		document.write("<p>El segundo articulo es <strong>");
+		  document.write(articulos[1]+"</strong></p>");
+		
+		
+		
+		</script>
+     </div>
+  </div>
+  
+</div>
+</body>
+</html>
+
+            
+            
+            
